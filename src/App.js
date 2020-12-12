@@ -3,6 +3,7 @@ import "./App.css";
 import Info from "./Info";
 import { useState } from "react";
 import Counter from "./Counter";
+import Average from "./Average";
 
 const App = () => {
   /*
@@ -21,7 +22,7 @@ const App = () => {
     </div>
   );
   */
-  return <Counter />;
+  return <Average />;
 };
 
 export default App;
